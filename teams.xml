@@ -1,0 +1,1734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="aboutus_page" model="website.page">
+        <field name="name">About Us</field>
+        <field name="is_published" eval="True"/>
+        <field name="key">btt_site.aboutus</field>
+        <field name="url">/aboutus</field>
+        <field name="type">qweb</field>
+        <field name="arch" type="xml">
+            <t t-name="btt_site.aboutus">
+                <t t-call="website.layout">
+                    <div id="wrap" class="oe_structure oe_empty">
+                        <!-- Desktop Carousel Section -->
+                        <section class="s_carousel_wrapper p-0 d-none o_snippet_mobile_invisible d-lg-block"
+                                 data-vxml="001" data-vcss="001" data-snippet="s_carousel" data-name="Carousel"
+                                 data-invisible="1">
+                            <div class="s_carousel s_carousel_default carousel slide o_colored_level"
+                                 data-bs-ride="true" data-bs-interval="10000" id="myCarousel1742722584293">
+                                <!-- Carousel Inner -->
+                                <div class="carousel-inner">
+                                    <!-- Carousel Slide -->
+                                    <div class="carousel-item o_cc o_cc5 o_colored_level active pt0 oe_img_bg o_bg_img_center o_bg_img_origin_border_box pb0"
+                                         style="background-image: url(/btt_site/static/src/img/aboutus-bg.png) !important;"
+                                         data-name="Slide" data-mimetype="image/webp" data-original-id="1256"
+                                         data-original-src="/btt_site/static/src/img/aboutus-bg.png"
+                                         data-mimetype-before-conversion="image/png" data-resize-width="1920">
+                                        <div class="o_we_bg_filter bg-black-25"></div>
+
+                                        <!-- Container for Carousel Content -->
+                                        <div class="oe_unremovable container">
+                                            <div class="row o_grid_mode" data-row-count="6">
+
+                                                <!-- Carousel Text Content -->
+                                                <div class="carousel-content o_colored_level o_grid_item g-height-5 g-col-lg-7 col-lg-7"
+                                                     style="z-index: 1; grid-area: 2 / 1 / 7 / 8;">
+                                                    <h1>
+                                                        <span class="display-3-fs">
+                                                            <strong>About Us</strong>
+                                                        </span>
+                                                    </h1>
+                                                    <p>
+                                                        <span class="h4-fs">BTT Group Co. was founded in
+                                                            <strong>2008</strong>
+                                                            &amp; has grown from a small local business to a
+                                                            respected leader in the design
+                                                            &amp; construction field.
+                                                        </span>
+                                                    </p>
+                                                </div>
+
+                                                <!-- WhatsApp Contact Button -->
+                                                <div class="o_grid_item o_colored_level g-height-2 g-col-lg-2 col-lg-2"
+                                                     style="z-index: 2; grid-area: 5 / 11 / 7 / 13;">
+                                                    <a href="https://web.whatsapp.com/send?phone=966542737774&amp;text="
+                                                       class="btn btn-fill-custom rounded-circle"
+                                                       style="border-width: 1px; border-style: solid; color: rgb(0, 255, 0);">
+                                                        <img src="/btt_site/static/src/img/whatsapp.png"
+                                                             alt="WhatsApp Contact"
+                                                             class="img img-fluid o_we_custom_image"
+                                                             data-mimetype="image/png" data-original-id="1818"
+                                                             data-original-src="/btt_site/static/src/img/whatsapp.png"
+                                                             data-mimetype-before-conversion="image/png"
+                                                             loading="lazy" data-resize-width="37"/>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Carousel Controls -->
+                                <button class="carousel-control-prev o_not_editable o_we_no_overlay d-none"
+                                        aria-label="Previous" title="Previous"
+                                        data-bs-target="#myCarousel1742722584293" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden o_default_snippet_text">Previous</span>
+                                </button>
+                                <button class="carousel-control-next o_not_editable o_we_no_overlay d-none"
+                                        aria-label="Next" title="Next"
+                                        data-bs-target="#myCarousel1742722584293" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden o_default_snippet_text">Next</span>
+                                </button>
+
+                                <!-- Carousel Indicators -->
+                                <div class="carousel-indicators o_not_editable o_we_no_overlay d-none">
+                                    <button type="button" aria-label="Carousel indicator"
+                                            data-bs-target="#myCarousel1742722584293" class="active"
+                                            data-bs-slide-to="0" aria-current="true"></button>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Mobile Carousel Section -->
+                        <section class="s_carousel_wrapper p-0 d-lg-none o_snippet_desktop_invisible"
+                                 data-vxml="001" data-vcss="001" data-snippet="s_carousel" data-name="Carousel"
+                                 data-invisible="1">
+                            <div class="s_carousel s_carousel_default carousel slide o_colored_level"
+                                 data-bs-ride="true" data-bs-interval="10000" id="myCarousel1742816135786">
+
+                                <div class="carousel-inner">
+                                    <div class="carousel-item o_cc o_cc5 o_colored_level active pb0 pt0 oe_img_bg o_bg_img_center o_bg_img_origin_border_box"
+                                         style="background-image: url(/btt_site/static/src/img/unsplash_2_xN1-zKyLo.png) !important;"
+                                         data-name="Slide" data-mimetype="image/webp" data-original-id="1256"
+                                         data-original-src="/btt_site/static/src/img/unsplash_2_xN1-zKyLo.png"
+                                         data-mimetype-before-conversion="image/png" data-resize-width="1920">
+                                        <div class="o_we_bg_filter bg-black-25"></div>
+
+                                        <div class="oe_unremovable container">
+                                            <div class="row o_grid_mode" data-row-count="5">
+                                                <div class="carousel-content o_colored_level o_grid_item g-height-5 g-col-lg-7 col-lg-7 col-12"
+                                                     style="z-index: 1; grid-area: 1 / 1 / 6 / 8;">
+                                                    <h1 class="display-2">
+                                                        <br/>
+                                                    </h1>
+                                                    <h1>
+                                                        <strong>About Us</strong>
+                                                        <br/>
+                                                    </h1>
+                                                    <p class="lead">
+                                                        <span class="base-fs">
+                                                            <strong>BTT Group Co.</strong>
+                                                            was founded in 2008 &amp; has grown from a small local
+                                                            business to a respected leader in the design &amp;
+                                                            construction field.
+                                                        </span>
+                                                    </p>
+                                                </div>
+                                                <div class="o_grid_item col-lg-2 g-col-lg-2 g-height-1 o_colored_level"
+                                                     style="z-index: 2; text-align: right;">
+                                                    <a href="#" class="btn btn-fill-custom rounded-circle btn-sm"
+                                                       style="border-width: 1px; border-style: solid; color: rgb(0, 255, 0);">
+                                                        <img src="/btt_site/static/src/img/whatsapp.png" alt=""
+                                                             class="img img-fluid o_we_custom_image"
+                                                             loading="lazy"/>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button class="carousel-control-prev o_not_editable o_we_no_overlay d-none"
+                                        aria-label="Previous" title="Previous"
+                                        data-bs-target="#myCarousel1742816135786" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden o_default_snippet_text">Previous</span>
+                                </button>
+                                <button class="carousel-control-next o_not_editable o_we_no_overlay d-none"
+                                        aria-label="Next" title="Next" data-bs-target="#myCarousel1742816135786"
+                                        data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden o_default_snippet_text">Next</span>
+                                </button>
+
+                                <div class="carousel-indicators o_not_editable o_we_no_overlay d-none">
+                                    <button type="button" aria-label="Carousel indicator"
+                                            data-bs-target="#myCarousel1742816135786" class="active"
+                                            data-bs-slide-to="0" aria-current="true"></button>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Mobile Product List Section -->
+                        <section class="s_product_list o_colored_level d-lg-none o_snippet_desktop_invisible pb0 pt0"
+                                 data-vcss="001" data-snippet="s_product_list" data-name="Items" data-invisible="1">
+                            <div class="container">
+                                <div class="row s_nb_column_fixed">
+                                    <div data-name="Card" class="col-lg-2 col-4">
+                                        <div class="s_card card o_cc o_cc1 o_colored_level o_card_img_top border"
+                                             data-snippet="s_card" data-vxml="001" data-name="Card"
+                                             style="border-width: 0px !important;">
+                                            <figure class="o_card_img_wrapper ratio mb-0 ratio-4x3">
+                                                <a href="#">
+                                                    <img src="/btt_site/static/src/img/decor.png" alt=""
+                                                         class="o_card_img card-img-top img img-fluid o_we_custom_image"
+                                                         loading="lazy"/>
+                                                </a>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                    <div data-name="Card" class="col-lg-2 col-4">
+                                        <div class="s_card card o_cc o_cc1 o_colored_level o_card_img_top border"
+                                             data-snippet="s_card" data-vxml="001" data-name="Card"
+                                             style="border-width: 0px !important;">
+                                            <figure class="o_card_img_wrapper ratio mb-0 ratio-4x3">
+                                                <a href="#">
+                                                    <img src="/btt_site/static/src/img/decor%20(1).png" alt=""
+                                                         class="o_card_img img img-fluid o_we_custom_image rounded-circle card-img-top"
+                                                         loading="lazy"/>
+                                                </a>
+                                            </figure>
+                                        </div>
+                                    </div>
+
+                                    <!-- Additional cards follow the same structure -->
+                                </div>
+                            </div>
+                        </section>
+                        <section
+                                class="s_product_list pb64 o_colored_level o_half_screen_height pt0 d-lg-flex d-none o_snippet_mobile_invisible"
+                                data-vcss="001" data-snippet="s_product_list" data-name="Items" data-invisible="1">
+                            <div class="container">
+                                <div class="row s_nb_column_fixed">
+
+                                    <div data-name="Card" class="col-lg-2 col-6">
+                                        <div class="s_card card o_cc o_cc1 o_colored_level o_card_img_top border"
+                                             data-snippet="s_card" data-vxml="001" data-name="Card"
+                                             style="border-width: 0px !important;">
+                                            <figure class="o_card_img_wrapper ratio mb-0 ratio-4x3">
+                                                <a aria-label="Link to product" href="#">
+                                                    <img src="/btt_site/static/src/img/decor.png" alt=""
+                                                         class="o_card_img card-img-top img img-fluid o_we_custom_image"
+                                                         loading="lazy" data-mimetype="image/png"
+                                                         data-original-id="1257"
+                                                         data-original-src="/btt_site/static/src/img/decor.png"
+                                                         data-mimetype-before-conversion="image/png"/>
+                                                </a>
+                                            </figure>
+
+                                        </div>
+                                    </div>
+                                    <div data-name="Card" class="col-lg-2 col-6">
+                                        <div class="s_card card o_cc o_cc1 o_colored_level o_card_img_top border"
+                                             data-snippet="s_card" data-vxml="001" data-name="Card"
+                                             style="border-width: 0px !important;">
+                                            <figure class="o_card_img_wrapper ratio mb-0 ratio-4x3">
+                                                <a aria-label="Link to product" href="#">
+                                                    <img src="/btt_site/static/src/img/decor.png" alt=""
+                                                         class="o_card_img img img-fluid o_we_custom_image rounded-circle card-img-top"
+                                                         loading="lazy" data-mimetype="image/png"
+                                                         data-original-id="1258"
+                                                         data-original-src="/btt_site/static/src/img/decor%20%281%29.png"
+                                                         data-mimetype-before-conversion="image/png"
+                                                         data-resize-width="187"/>
+                                                </a>
+                                            </figure>
+
+                                        </div>
+                                    </div>
+                                    <div data-name="Card" class="col-lg-2 col-6">
+                                        <div class="s_card card o_cc o_cc1 o_colored_level o_card_img_top border"
+                                             data-snippet="s_card" data-vxml="001" data-name="Card"
+                                             style="border-width: 0px !important;">
+                                            <figure class="o_card_img_wrapper ratio mb-0 ratio-4x3">
+                                                <a aria-label="Link to product" href="#">
+                                                    <img src="/btt_site/static/src/img/decor.png" alt=""
+                                                         class="o_card_img card-img-top img img-fluid o_we_custom_image"
+                                                         loading="lazy" data-mimetype="image/png"
+                                                         data-original-id="1259"
+                                                         data-original-src="/btt_site/static/src/img/decor%402x.png"
+                                                         data-mimetype-before-conversion="image/png"/>
+                                                </a>
+                                            </figure>
+
+                                        </div>
+                                    </div>
+                                    <div data-name="Card" class="col-lg-2 col-6">
+                                        <div class="s_card o_card_img_top card o_cc o_cc1 o_colored_level border"
+                                             data-snippet="s_card" data-vxml="001" data-name="Card"
+                                             style="border-width: 0px !important;">
+                                            <figure class="o_card_img_wrapper ratio ratio-4x3 mb-0">
+                                                <a aria-label="Link to product" href="#">
+                                                    <img src="/btt_site/static/src/img/decor.png" alt=""
+                                                         class="o_card_img card-img-top img img-fluid o_we_custom_image"
+                                                         loading="lazy" data-mimetype="image/png"
+                                                         data-original-id="1260"
+                                                         data-original-src="/btt_site/static/src/img/decor%20%282%29.png"
+                                                         data-mimetype-before-conversion="image/png"/>
+                                                </a>
+                                            </figure>
+
+                                        </div>
+                                    </div>
+                                    <div data-name="Card" class="col-lg-2 col-6">
+                                        <div class="s_card o_card_img_top card o_cc o_cc1 o_colored_level border"
+                                             data-snippet="s_card" data-vxml="001" data-name="Card"
+                                             style="border-width: 0px !important;">
+                                            <figure class="o_card_img_wrapper ratio ratio-4x3 mb-0">
+                                                <a aria-label="Link to product" href="#">
+                                                    <img src="/btt_site/static/src/img/decor.png" alt=""
+                                                         class="o_card_img card-img-top img img-fluid o_we_custom_image"
+                                                         loading="lazy" data-mimetype="image/png"
+                                                         data-original-id="1261"
+                                                         data-original-src="/btt_site/static/src/img/decor%20%283%29.png"
+                                                         data-mimetype-before-conversion="image/png"/>
+                                                </a>
+                                            </figure>
+
+                                        </div>
+                                    </div>
+                                    <div data-name="Card" class="col-lg-2 col-6">
+                                        <div class="s_card o_card_img_top card o_cc o_cc1 o_colored_level border"
+                                             data-snippet="s_card" data-vxml="001" data-name="Card"
+                                             style="border-width: 0px !important;">
+                                            <figure class="o_card_img_wrapper ratio ratio-4x3 mb-0">
+                                                <a aria-label="Link to product" href="#">
+                                                    <img src="/btt_site/static/src/img/decor.png" alt=""
+                                                         class="o_card_img card-img-top img img-fluid o_we_custom_image"
+                                                         loading="lazy" data-mimetype="image/png"
+                                                         data-original-id="1262"
+                                                         data-original-src="/btt_site/static/src/img/decor%20%284%29.png"
+                                                         data-mimetype-before-conversion="image/png"/>
+                                                </a>
+                                            </figure>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="s_image_text_box o_colored_level pb24 pt0" data-snippet="s_image_text_box"
+                                 data-name="Image Text Box">
+                            <div class="container">
+                                <div class="row o_grid_mode" data-row-count="7" style="column-gap: 24px;">
+
+                                    <!-- First Image -->
+                                    <div class="o_grid_item o_grid_item_image o_colored_level g-height-7 g-col-lg-2 col-lg-2 order-lg-0 col-5 offset-1 offset-lg-0"
+                                         style="--grid-item-padding-y: 0px; --grid-item-padding-x: 0px; z-index: 1; grid-area: 1 / 2 / 8 / 4; order: 1;">
+                                        <img src="/btt_site/static/src/img/about_us/lets_know_1.webp" alt="Let's Know 1"
+                                             class="img img-fluid rounded order-lg-0 o_we_custom_image"
+                                             data-mimetype="image/webp" data-original-id="1263"
+                                             data-original-src="/btt_site/static/src/img/about_us/lets_know_1.webp"
+                                             loading="lazy" style="width: 100% !important;"/>
+                                    </div>
+
+                                    <!-- Second Image (Rectangle 4) -->
+                                    <div class="o_grid_item o_grid_item_image o_colored_level g-height-5 g-col-lg-2 col-lg-2 order-lg-0 offset-1 offset-lg-0 col-4"
+                                         style="--grid-item-padding-y: 0px; --grid-item-padding-x: 0px; z-index: 3; grid-area: 1 / 4 / 6 / 6; order: 2;">
+                                        <img src="btt_site/static/src/img/about_us/lets_know_2.webp" alt="Rectangle 4"
+                                             class="img img-fluid rounded order-lg-0 o_we_custom_image"
+                                             data-mimetype="image/webp" data-original-id="1264"
+                                             data-original-src="/btt_site/static/src/img/Rectangle%204.webp"
+                                             loading="lazy"/>
+                                    </div>
+
+                                    <!-- Text Content -->
+                                    <div class="o_grid_item g-col-lg-4 o_colored_level g-height-7 col-lg-4 col-12 order-lg-0"
+                                         style="z-index: 4; grid-area: 1 / 6 / 8 / 10; order: 0;">
+                                        <h3 style="text-align: left;">
+                                            <span class="h3-fs">
+                                                <strong>Let's Know</strong>
+                                            </span>
+                                        </h3>
+                                        <h3 style="text-align: left;">
+                                            <span class="h3-fs">
+                                                <strong>about us</strong>
+                                            </span>
+                                        </h3>
+                                        <p style="text-align: left;" class="lead">BTT Group Co. is a global design
+                                            and thought leader in the world of work. Along with our expansive
+                                            community of brands, we design and manufacture innovative furnishings
+                                            and solutions.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section
+                                class="s_image_title o_cc o_cc5 pt32 o_colored_level pb56 d-none o_snippet_mobile_invisible d-lg-block oe_img_bg o_bg_img_center o_bg_img_origin_border_box"
+                                style="background-position: 50% 70%; background-image: url(/btt_site/static/src/img/494%201%20%282%29.png) !important;"
+                                data-snippet="s_image_title" data-name="Image Title" data-invisible="1"
+                                data-mimetype="image/webp" data-original-id="1663"
+                                data-original-src="/btt_site/static/src/img/494%201%20%282%29.png"
+                                data-mimetype-before-conversion="image/png" data-resize-width="1920"
+                                data-quality="100">
+                            <div class="o_we_bg_filter bg-black-50"/>
+
+                            <div class="container-fluid">
+                                <div class="row o_grid_mode" data-row-count="11">
+
+
+                                    <div class="o_colored_level o_grid_item_image o_grid_item g-col-lg-2 g-height-4 col-lg-2"
+                                         style="z-index: 4; grid-area: 3 / 4 / 7 / 6;">
+                                        <img src="/btt_site/static/src/img/Untitled_design__1_-removebg-preview.png"
+                                             alt="" class="img img-fluid o_we_custom_image"
+                                             data-mimetype="image/png" data-original-id="1338"
+                                             data-original-src="/btt_site/static/src/img/Untitled_design__1_-removebg-preview.png"
+                                             data-mimetype-before-conversion="image/png" loading="lazy"/>
+                                    </div>
+                                    <div class="o_grid_item o_colored_level g-height-10 bg-white-85 g-col-lg-10 col-lg-10"
+                                         style="--grid-item-padding-y: 24px; z-index: 2; grid-area: 2 / 2 / 12 / 12;">
+                                        <div class="o_text_columns">
+                                            <div class="row"/>
+                                        </div>
+                                    </div>
+                                    <div class="o_colored_level o_grid_item g-col-lg-5 g-height-10 col-lg-5"
+                                         style="z-index: 3; grid-area: 2 / 6 / 12 / 11;">
+                                        <h3>
+                                            <br/>
+                                        </h3>
+                                        <h3>
+                                            <strong>
+                                                <font class="text-o-color-5">VISION, MISSION &amp;amp; GOALS</font>
+                                            </strong>
+                                        </h3>
+                                        <div data-name="Separator" data-snippet="s_hr"
+                                             class="s_hr oe_snippet_body pt0 pb4">
+                                            <hr style="border-top-color: rgb(140, 198, 63); border-top-width: 5px !important;"
+                                                class="w-50 me-auto"/>
+                                            <br/>
+                                            <br/>
+                                            <br/>
+                                            <br/>
+                                        </div>
+                                        <h5>
+                                            <span class="o_small-fs">
+                                                <strong>
+                                                    <font class="text-o-color-1">Our Vision</font>
+                                                </strong>
+                                                <font class="text-o-color-5">is to be a leading force in the
+                                                    transformation of&amp;nbsp;
+                                                </font>
+                                            </span>
+                                        </h5>
+                                        <h5>
+                                            <font class="text-o-color-5">
+                                                <span class="o_small-fs">Saudi Arabia’s infrastructure, driving
+                                                    sustainable and&amp;nbsp;
+                                                </span>
+                                            </font>
+                                        </h5>
+                                        <h5>
+                                            <font class="text-o-color-5">
+                                                <span class="o_small-fs">innovative construction solutions that
+                                                    align with Vision
+                                                </span>
+                                            </font>
+                                        </h5>
+                                        <h5>
+                                            <font class="text-o-color-5">
+                                                <span class="o_small-fs">&amp;nbsp;2030. We aim to contribute to the
+                                                    Kingdom’s economic
+                                                </span>
+                                            </font>
+                                        </h5>
+                                        <h5>
+                                            <font class="text-o-color-5">
+                                                <span class="o_small-fs">&amp;nbsp;diversification, urban
+                                                    development, and global
+                                                </span>
+                                            </font>
+                                        </h5>
+                                        <h5>
+                                            <font class="text-o-color-5">
+                                                <span class="o_small-fs">competitiveness by delivering world-class
+                                                    projects that
+                                                </span>
+                                            </font>
+                                        </h5>
+                                        <h5>
+                                            <span class="o_small-fs">
+                                                <font class="text-o-color-5">&amp;nbsp;enhance the quality of life
+                                                    for all citizens.
+                                                </font>
+                                            </span>
+                                        </h5>
+                                        <h5>
+                                            <span class="o_small-fs">
+                                                <strong>
+                                                    <font class="text-o-color-1">Our mission</font>
+                                                </strong>
+                                                <font class="text-o-color-5">is to provide superior construction and&amp;nbsp;</font>
+                                            </span>
+                                        </h5>
+                                        <h5>
+                                            <font class="text-o-color-5">
+                                                <span class="o_small-fs">furniture solutions that exceed our
+                                                    clients’ expectations.&amp;nbsp;
+                                                </span>
+                                            </font>
+                                        </h5>
+                                        <h5>
+                                            <font class="text-o-color-5">
+                                                <span class="o_small-fs">We envision a future where every project we
+                                                    undertake&amp;nbsp;
+                                                </span>
+                                            </font>
+                                        </h5>
+                                        <h5>
+                                            <font class="text-o-color-5">
+                                                <span class="o_small-fs">reflects our dedication to quality,
+                                                    sustainability, and&amp;nbsp;
+                                                </span>
+                                            </font>
+                                        </h5>
+                                        <h5>
+                                            <span class="o_small-fs">
+                                                <font class="text-o-color-5">customer satisfaction.</font>
+                                            </span>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- Start of Image Frame Section -->
+
+                        <section
+                                class="s_image_frame o_colored_level pt64 pb64 o_cc o_cc1 d-none o_snippet_mobile_invisible d-lg-flex o_full_screen_height"
+                                data-snippet="s_image_frame" data-name="Image Frame" data-invisible="1" style="">
+                            <div class="container-fluid">
+                                <div class="row o_grid_mode" data-row-count="37">
+
+
+                                    <div class="o_grid_item o_grid_item_image g-height-11 g-col-lg-12 col-lg-12 rounded overflow-hidden o_colored_level"
+                                         style="--grid-item-padding-x: 0px; --grid-item-padding-y: 0px; grid-area: 3 / 1 / 14 / 13; border-radius: 6.4px !important;">
+                                        <img src="/btt_site/static/src/img/494%201.webp" alt=""
+                                             class="img img-fluid mx-auto o_we_custom_image" style="padding: 16px;"
+                                             data-mimetype="image/webp" data-original-id="1272"
+                                             data-original-src="/btt_site/static/src/img/494%201.webp"
+                                             data-mimetype-before-conversion="image/png" data-resize-width="1290"
+                                             loading="lazy"/>
+                                    </div>
+                                    <div class="o_grid_item o_grid_item_image o_colored_level g-height-6 g-col-lg-10 border col-lg-10"
+                                         style="--grid-item-padding-x: 0px; --grid-item-padding-y: 0px; z-index: 5; grid-area: 18 / 2 / 24 / 12;">
+                                        <img src="/btt_site/static/src/img/444775396d18c6599419472c9ef25ea8.jpg"
+                                             alt="" class="img img-fluid mx-auto o_we_custom_image rounded"
+                                             data-mimetype="image/jpeg" data-original-id="1283"
+                                             data-original-src="/btt_site/static/src/img/444775396d18c6599419472c9ef25ea8.jpg"
+                                             data-mimetype-before-conversion="image/jpeg" loading="lazy"
+                                             data-resize-width="500" data-quality="100"
+                                             data-filter-options="{saturation:20,contrast:80,brightness:-60}"/>
+                                    </div>
+                                    <div class="o_grid_item o_colored_level g-col-lg-10 g-height-3 col-lg-10 bg-black-50"
+                                         style="z-index: 6; grid-area: 21 / 2 / 24 / 12;">
+                                        <h3 style="text-align: left;">
+                                            <font class="text-o-color-4">
+                                                <strong>
+                                                    FURNITURE SERVICES
+
+                                                </strong>
+                                            </font>
+                                            <strong>
+                                                <br/>
+                                            </strong>
+                                        </h3>
+                                        <p style="text-align: left;" class="lead">
+                                            <font class="text-o-color-4">
+                                                <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                                                    congue interdum ligula a dignissim. Lorem ipsum dolor sit amet,
+                                                    consectetur adipiscing elit. Sed lobortis orci elementum egestas
+                                                    lobortis
+                                                </strong>
+                                            </font>
+
+                                        </p>
+                                    </div>
+                                    <div class="o_grid_item o_cc o_cc2 rounded o_colored_level g-col-lg-8 g-height-9 col-lg-8"
+                                         style="z-index: 13; --grid-item-padding-y: 140px; --grid-item-padding-x: 48px; grid-area: 4 / 3 / 13 / 11;">
+                                        <h3>
+                                            <strong>
+                                                <br/>
+                                            </strong>
+                                        </h3>
+                                    </div>
+                                    <div class="o_grid_item o_grid_item_image o_colored_level g-height-6 g-col-lg-10 col-lg-10"
+                                         style="--grid-item-padding-x: 0px; --grid-item-padding-y: 0px; z-index: 7; grid-area: 25 / 2 / 31 / 12;">
+                                        <img src="/btt_site/static/src/img/610db10b03e0ba0ae33b622f994dd4a7.jpg"
+                                             alt="" class="img img-fluid mx-auto rounded o_we_custom_image"
+                                             data-mimetype="image/jpeg" data-original-id="1289"
+                                             data-original-src="/btt_site/static/src/img/610db10b03e0ba0ae33b622f994dd4a7.jpg"
+                                             data-mimetype-before-conversion="image/jpeg" data-resize-width="736"
+                                             loading="lazy" data-quality="100"/>
+                                    </div>
+                                    <div class="o_grid_item o_colored_level bg-black-75 g-col-lg-10 g-height-3 col-lg-10"
+                                         style="z-index: 8; grid-area: 28 / 2 / 31 / 12;">
+                                        <h3>
+                                            <strong>
+                                                <font class="text-o-color-4">CONSTRUCTION SERVICES</font>
+                                            </strong>
+                                        </h3>
+                                        <p class="lead">
+                                            <span class="base-fs">
+                                                <font class="text-o-color-4">
+                                                    <strong>orem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                        Sed congue interdum ligula a dignissim. Lorem ipsum dolor
+                                                        sit amet, consectetur adipiscing elit. Sed lobortis orci
+                                                        elementum egestas lobortis.
+                                                    </strong>
+                                                </font>
+                                            </span>
+
+                                        </p>
+                                    </div>
+                                    <div class="o_grid_item o_grid_item_image o_colored_level g-height-6 g-col-lg-10 col-lg-10"
+                                         style="--grid-item-padding-x: 0px; --grid-item-padding-y: 0px; z-index: 9; grid-area: 32 / 2 / 38 / 12;">
+                                        <img src="/btt_site/static/src/img/e4cd0549de9d4fb529cb720da1a3b8c5.jpeg"
+                                             alt="" class="img img-fluid mx-auto rounded o_we_custom_image"
+                                             data-mimetype="image/jpeg" data-original-id="1287"
+                                             data-original-src="/btt_site/static/src/img/e4cd0549de9d4fb529cb720da1a3b8c5.jpeg"
+                                             data-mimetype-before-conversion="image/jpeg" data-resize-width="736"
+                                             loading="lazy" data-quality="100"/>
+                                    </div>
+                                    <div class="o_grid_item o_colored_level bg-black-50 g-col-lg-10 g-height-3 col-lg-10"
+                                         style="z-index: 10; grid-area: 35 / 2 / 38 / 12;">
+                                        <h3>
+                                            <font class="text-o-color-4">
+                                                <strong>Commercial EQUIPMENTS</strong>
+                                            </font>
+                                        </h3>
+                                        <p class="lead">
+                                            <font class="text-o-color-4">
+                                                <span class="o_small-fs">
+                                                    <strong>​Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                        elit. Sed congue interdum ligula a dignissim. Lorem ipsum
+                                                        dolor sit amet, consectetur adipiscing elit. Sed lobortis
+                                                        orci elementum egestas lobortis.
+                                                    </strong>
+                                                </span>
+                                            </font>
+                                        </p>
+                                    </div>
+                                    <div class="o_grid_item o_colored_level g-col-lg-4 g-height-7 col-lg-4"
+                                         style="z-index: 14; grid-area: 5 / 6 / 12 / 10;">
+                                        <h3>
+                                            <strong>VISION, MISSION &amp;amp; GOALS</strong>
+                                        </h3>
+                                        <div class="s_hr oe_snippet_body pt0 pb4" data-snippet="s_hr"
+                                             data-name="Separator">
+                                            <hr class="w-50 me-auto"
+                                                style="border-top-color: rgb(140, 198, 63); border-top-width: 5px !important;"/>
+                                            <br/>
+                                            <br/>
+                                            <br/>
+                                            <br/>
+                                        </div>
+                                        <p>
+                                            <span class="o_small-fs">
+                                                <strong>
+                                                    <font class="text-o-color-1">Our Vision</font>
+                                                </strong>
+                                                is to be a leading force in the transformation of Saudi Arabia’s
+                                                infrastructure, driving sustainable and innovative construction
+                                                solutions that align with Vision 2030. We aim to contribute to the
+                                                Kingdom’s economic diversification, urban development, and global
+                                                competitiveness by delivering world-class projects that enhance the
+                                                quality of life for all citizens.
+                                            </span>
+                                        </p>
+                                        <p>
+                                            <span class="o_small-fs">
+                                                <strong>
+                                                    <font class="text-o-color-1">Our mission</font>
+                                                </strong>
+                                                is to provide superior construction and furniture solutions that
+                                                exceed our clients’ expectations. We envision a future where every
+                                                project we undertake reflects our dedication to quality,
+                                                sustainability, and customer satisfaction.
+                                            </span>
+
+                                        </p>
+                                        <p class="o_small">
+                                            <br/>
+                                        </p>
+                                    </div>
+                                    <div class="o_grid_item o_grid_item_image o_colored_level g-height-5 g-col-lg-2 col-lg-2"
+                                         style="z-index: 15; grid-area: 4 / 4 / 9 / 6;">
+                                        <img src="/btt_site/static/src/img/Untitled%20design%20%281%29.png" alt=""
+                                             class="img img-fluid o_we_custom_image" loading="lazy"
+                                             data-mimetype="image/png" data-original-id="1337"
+                                             data-original-src="/btt_site/static/src/img/Untitled%20design%20%281%29.png"
+                                             data-mimetype-before-conversion="image/png"/>
+                                    </div>
+                                    <div class="o_grid_item g-height-2 o_colored_level g-col-lg-3 col-lg-3"
+                                         style="z-index: 11; grid-area: 15 / 2 / 17 / 5;">
+                                        <h1>
+                                            <strong>Our Service</strong>
+
+                                        </h1>
+                                    </div>
+                                    <div class="o_grid_item o_colored_level g-height-3 g-col-lg-5 col-lg-5"
+                                         style="z-index: 12; grid-area: 15 / 6 / 18 / 11;">
+                                        <p class="lead">
+                                            <span class="o_small-fs">
+                                                <strong>Bring nature insider and shop our big selections of fresh
+                                                    indoor
+                                                </strong>
+                                            </span>
+                                        </p>
+                                        <p class="lead">
+                                            <span class="o_small-fs">
+                                                <strong>&amp;nbsp;plants including Instagram-worthy houseplants,
+                                                    pet-friendly
+                                                </strong>
+                                            </span>
+                                        </p>
+                                        <p class="lead">
+                                            <span class="o_small-fs">
+                                                <strong>&amp;nbsp;plants, orchids and one-of-a-kind rare plants.
+                                                </strong>
+                                            </span>
+                                            <strong>
+
+                                            </strong>
+                                        </p>
+                                    </div>
+                                    <div class="o_grid_item o_colored_level g-col-lg-1 g-height-2 col-lg-1"
+                                         style="z-index: 20; grid-area: 25 / 11 / 27 / 12;">
+                                        <a href="#" class="btn btn-fill-custom text-o-color-3 rounded-circle btn-sm"
+                                           style="border-width: 1px; border-style: solid;"><img
+                                                src="/btt_site/static/src/img/Frame%2011%20%281%29.png" alt=""
+                                                class="img img-fluid o_we_custom_image" data-mimetype="image/png"
+                                                data-original-id="1813"
+                                                data-original-src="/btt_site/static/src/img/Frame%2011%20%281%29.png"
+                                                data-mimetype-before-conversion="image/png" loading="lazy"/>​​
+                                        </a>
+                                        <br/>
+                                    </div>
+                                    <div class="o_grid_item o_colored_level g-col-lg-1 g-height-2 col-lg-1"
+                                         style="z-index: 21; grid-area: 18 / 11 / 20 / 12;">
+                                        <a href="#" class="btn btn-fill-custom text-o-color-3 rounded-circle btn-sm"
+                                           style="border-width: 1px; border-style: solid;"><img
+                                                src="/btt_site/static/src/img/Frame%2011%20%281%29.png" alt=""
+                                                class="img img-fluid o_we_custom_image" data-mimetype="image/png"
+                                                data-original-id="1813"
+                                                data-original-src="/btt_site/static/src/img/Frame%2011%20%281%29.png"
+                                                data-mimetype-before-conversion="image/png" loading="lazy"/>​​
+                                        </a>
+                                        <br/>
+                                    </div>
+                                    <div class="o_grid_item o_colored_level g-col-lg-1 g-height-2 col-lg-1"
+                                         style="z-index: 22; grid-area: 32 / 11 / 34 / 12;">
+                                        <a href="#" class="btn btn-fill-custom text-o-color-3 rounded-circle btn-sm"
+                                           style="border-width: 1px; border-style: solid;">
+                                            <img src="/btt_site/static/src/img/Frame%2011%20%281%29.png" alt=""
+                                                 class="img img-fluid o_we_custom_image" data-mimetype="image/png"
+                                                 data-original-id="1813"
+                                                 data-original-src="/btt_site/static/src/img/Frame%2011%20%281%29.png"
+                                                 data-mimetype-before-conversion="image/png" loading="lazy"/>​​
+                                        </a>
+                                        <br/>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section
+                                class="s_title o_colored_level d-lg-block d-none o_snippet_mobile_invisible pb0 pt0"
+                                data-vcss="001" data-snippet="s_title" data-name="Title" data-invisible="1">
+                            <div class="container s_allow_columns">
+                                <h1 class="display-1" style="text-align: center;">
+                                    <strong>O U R&amp;nbsp;
+                                        <font class="text-600">F A C T O R I E S</font>
+                                    </strong>
+                                    <br/>
+                                </h1>
+                            </div>
+                        </section>
+                        <!-- Start of Factories Unveil Section -->
+
+                        <section
+                                class="s_unveil o_colored_level d-lg-block d-none o_snippet_mobile_invisible pt0 pb0"
+                                data-snippet="s_unveil" data-name="Unveil" data-invisible="1">
+                            <div class="container">
+                                <div class="row o_grid_mode" data-row-count="10">
+
+
+                                    <div class="o_grid_item o_grid_item_image g-col-lg-4 o_colored_level g-height-7 col-lg-4"
+                                         style="z-index: 4; grid-area: 4 / 5 / 11 / 9;">
+                                        <img src="/btt_site/static/src/img/1781dceae47c011bfca82a6f9341b2ad.png"
+                                             alt="" class="img img-fluid mx-auto rounded o_we_custom_image"
+                                             data-mimetype="image/webp" data-original-id="1305"
+                                             data-original-src="/btt_site/static/src/img/1781dceae47c011bfca82a6f9341b2ad.png"
+                                             data-mimetype-before-conversion="image/png" data-resize-width="690"
+                                             loading="lazy"/>
+                                    </div>
+                                    <div class="o_grid_item o_grid_item_image d-lg-block d-none o_snippet_mobile_invisible o_colored_level g-height-7 g-col-lg-4 col-lg-4"
+                                         style="z-index: 6; grid-area: 4 / 9 / 11 / 13;" data-invisible="1">
+                                        <img src="/btt_site/static/src/img/93dd0e576a3b89436a8a3fec0b1c4925.webp"
+                                             alt="" class="img img-fluid mx-auto rounded o_we_custom_image"
+                                             data-mimetype="image/webp" data-original-id="1307"
+                                             data-original-src="/btt_site/static/src/img/93dd0e576a3b89436a8a3fec0b1c4925.webp"
+                                             data-mimetype-before-conversion="image/png" data-resize-width="690"
+                                             loading="lazy" data-quality="100"/>
+                                    </div>
+                                    <div class="o_grid_item o_grid_item_image o_colored_level g-col-lg-4 g-height-7 col-lg-4"
+                                         style="z-index: 8; grid-area: 4 / 1 / 11 / 5;">
+                                        <img src="/btt_site/static/src/img/724f72626c103c38c82729b27644d041.png"
+                                             alt="" class="img img-fluid o_we_custom_image"
+                                             data-mimetype="image/png" data-original-id="1303"
+                                             data-original-src="/btt_site/static/src/img/724f72626c103c38c82729b27644d041.png"
+                                             data-mimetype-before-conversion="image/png" loading="lazy"/>
+                                    </div>
+                                    <div class="o_grid_item g-col-lg-4 g-height-2 o_colored_level col-lg-4"
+                                         style="z-index: 12; grid-area: 8 / 9 / 10 / 13;">
+                                        <h3>
+                                            <font style="background-color: rgba(0, 0, 0, 0.42);"
+                                                  class="text-o-color-3">
+                                                <strong>Office</strong>
+                                            </font>
+                                            <font style="background-color: rgba(0, 0, 0, 0.71);"
+                                                  class="text-o-color-3">
+                                                <strong>​</strong>
+                                            </font>
+                                            <font style="background-color: rgba(0, 0, 0, 0.42);"
+                                                  class="text-o-color-3">
+                                                <strong>Seating&amp;nbsp;</strong>
+                                            </font>
+                                        </h3>
+                                        <h3>
+                                            <font style="background-color: rgba(0, 0, 0, 0.42);"
+                                                  class="text-o-color-3">
+                                                <strong>Factory</strong>
+                                            </font>
+                                        </h3>
+                                    </div>
+                                    <div class="o_grid_item g-height-2 o_colored_level g-col-lg-3 col-lg-3"
+                                         style="z-index: 13; grid-area: 8 / 5 / 10 / 8;">
+                                        <h3>
+                                            <font class="text-o-color-3">
+                                                <strong>Metal Furniture Factory</strong>
+                                            </font>
+
+                                        </h3>
+                                        <p>
+                                            <br/>
+                                        </p>
+                                    </div>
+                                    <div class="o_grid_item col-lg-4 g-col-lg-4 g-height-2 o_colored_level"
+                                         style="z-index: 14; grid-area: 8 / 1 / 10 / 5;">
+                                        <h3>
+                                            <font class="text-o-color-3">
+                                                <strong>Wooden Furniture Factory</strong>
+                                            </font>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section
+                                class="s_title pt40 pb40 o_colored_level d-lg-block d-none o_snippet_mobile_invisible"
+                                data-vcss="001" data-snippet="s_title" data-name="Title" data-invisible="1">
+                            <div class="s_allow_columns container">
+                                <h2 class="display-3-fs" style="text-align: center;">
+                                    <strong>O U R&amp;nbsp;</strong>
+                                    <font class="text-600">
+                                        <strong>T E A M</strong>
+                                    </font>
+                                </h2>
+                            </div>
+                        </section>
+                        <!-- Start of Our Teams - Unveil Section -->
+                        <section class="s_company_team_basic o_cc o_cc1 pt64 pb64 o_colored_level"
+                                 data-snippet="s_company_team_basic" data-name="Team Basic">
+                            <div class="container">
+                                <div class="row justify-content-center align-items-center gap-4">
+                                    <!-- Team Member 1 -->
+                                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                        <div class="card text-center" style="width: 18rem;">
+                                            <img src="/btt_site/static/src/img/teams/img1.png"
+                                                 class="card-img-top img-fluid rounded-circle" alt="James Vial"
+                                                 loading="lazy"/>
+                                            <div class="card-body">
+                                                <h5 class="card-title">
+                                                    <strong>James Vial</strong>
+                                                </h5>
+                                                <p class="text-primary">Head of Front-End</p>
+                                                <p class="o_small">Culinary artist, explores diverse flavors, skilled in
+                                                    cooking.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Team Member 2 -->
+                                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                        <div class="card text-center" style="width: 18rem;">
+                                            <img src="/btt_site/static/src/img/teams/img2.png"
+                                                 class="card-img-top img-fluid rounded-circle" alt="Dominic Game"
+                                                 loading="lazy"/>
+                                            <div class="card-body">
+                                                <h5 class="card-title">
+                                                    <strong>Dominic Game</strong>
+                                                </h5>
+                                                <p class="text-primary">3D Artist</p>
+                                                <p class="o_small">Football enthusiast, enjoys movie nights with
+                                                    friends.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Team Member 3 -->
+                                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                        <div class="card text-center" style="width: 18rem;">
+                                            <img src="/btt_site/static/src/img/teams/img3.png"
+                                                 class="card-img-top img-fluid rounded-circle" alt="Keira Battye"
+                                                 loading="lazy"/>
+                                            <div class="card-body">
+                                                <h5 class="card-title">
+                                                    <strong>Keira Battye</strong>
+                                                </h5>
+                                                <p class="text-primary">Product Designer</p>
+                                                <p class="o_small">Creative painter capturing beauty with imaginative
+                                                    artwork.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Team Member 4 -->
+                                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                        <div class="card text-center" style="width: 18rem;">
+                                            <img src="/btt_site/static/src/img/teams/img4.png"
+                                                 class="card-img-top img-fluid rounded-circle" alt="Alexis Jensen"
+                                                 loading="lazy"/>
+                                            <div class="card-body">
+                                                <h5 class="card-title">
+                                                    <strong>Alexis Jensen</strong>
+                                                </h5>
+                                                <p class="text-primary">CTO</p>
+                                                <p class="o_small">Bookworm, creative software developer with
+                                                    precision.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- Start of Our Materials - Unveil Section -->
+
+                        <section
+                                class="s_unveil o_colored_level pb0 pt0 d-lg-block d-none o_snippet_mobile_invisible"
+                                data-snippet="s_unveil" data-name="Unveil" data-invisible="1">
+                            <div class="container">
+                                <div class="row o_grid_mode" data-row-count="11">
+                                    <div class="o_grid_item o_grid_item_image d-lg-block d-none o_snippet_mobile_invisible o_colored_level g-col-lg-2 g-height-7 col-lg-2"
+                                         style="z-index: 6; grid-area: 5 / 11 / 12 / 13;" data-invisible="1">
+                                        <img src="/btt_site/static/src/img/a8925cbf807d67653332d9ef23fde113.webp"
+                                             alt="" class="img img-fluid mx-auto rounded o_we_custom_image"
+                                             data-mimetype="image/webp" data-original-id="1317"
+                                             data-original-src="/btt_site/static/src/img/a8925cbf807d67653332d9ef23fde113.jpg"
+                                             data-mimetype-before-conversion="image/jpeg" data-resize-width="690"
+                                             loading="lazy"/>
+                                    </div>
+                                    <div class="o_grid_item o_grid_item_image g-height-7 d-lg-block d-none o_snippet_mobile_invisible o_colored_level g-col-lg-2 col-lg-2"
+                                         style="z-index: 5; grid-area: 5 / 9 / 12 / 11;" data-invisible="1">
+                                        <img src="/btt_site/static/src/img/b8442ce6edc3f6039abf8307c8ce6388.webp"
+                                             alt="" class="img img-fluid mx-auto rounded o_we_custom_image"
+                                             data-mimetype="image/webp" data-original-id="1316"
+                                             data-original-src="/btt_site/static/src/img/b8442ce6edc3f6039abf8307c8ce6388.jpg"
+                                             data-mimetype-before-conversion="image/jpeg" data-resize-width="466"
+                                             loading="lazy"/>
+                                    </div>
+                                    <div class="o_grid_item o_grid_item_image o_colored_level g-col-lg-2 g-height-7 col-lg-2"
+                                         style="z-index: 4; grid-area: 5 / 7 / 12 / 9;">
+                                        <img src="/btt_site/static/src/img/246ff6f9175b30a37a8022b9bb84946a.webp"
+                                             alt="" class="img img-fluid mx-auto rounded o_we_custom_image"
+                                             data-mimetype="image/webp" data-original-id="1315"
+                                             data-original-src="/btt_site/static/src/img/246ff6f9175b30a37a8022b9bb84946a.jpg"
+                                             data-mimetype-before-conversion="image/jpeg" data-resize-width="690"
+                                             loading="lazy"/>
+                                    </div>
+                                    <div class="o_grid_item o_grid_item_image d-lg-block d-none o_snippet_mobile_invisible o_colored_level g-col-lg-2 g-height-7 col-lg-2"
+                                         style="z-index: 3; grid-area: 5 / 5 / 12 / 7;" data-invisible="1">
+                                        <img src="/btt_site/static/src/img/817d7b642efb30fc49826e816d0e1a92.webp"
+                                             alt="" class="img img-fluid mx-auto rounded o_we_custom_image"
+                                             data-mimetype="image/webp" data-original-id="1314"
+                                             data-original-src="/btt_site/static/src/img/9683c33e7109b7f0c57770b5a93e5c56.jpg"
+                                             data-mimetype-before-conversion="image/jpeg" data-resize-width="690"
+                                             loading="lazy"/>
+                                    </div>
+                                    <div class="o_grid_item o_grid_item_image d-lg-block d-none o_snippet_mobile_invisible o_colored_level g-col-lg-2 g-height-7 col-lg-2"
+                                         style="z-index: 2; grid-area: 5 / 3 / 12 / 5;" data-invisible="1">
+                                        <img src="/btt_site/static/src/img/9683c33e7109b7f0c57770b5a93e5c56.webp"
+                                             alt="" class="img img-fluid mx-auto rounded o_we_custom_image"
+                                             data-mimetype="image/webp" data-original-id="1313" data-original-src=""
+                                             data-mimetype-before-conversion="image/jpeg" data-resize-width="690"
+                                             loading="lazy"/>
+                                    </div>
+                                    <div class="o_grid_item o_colored_level g-col-lg-2 g-height-7 col-lg-2"
+                                         style="z-index: 7; grid-area: 5 / 1 / 12 / 3;">
+                                        <h2>
+                                            <strong>Our Materials</strong>
+                                        </h2>
+                                        <p class="lead">We use quality and</p>
+                                        <p class="lead">simple materials</p>
+                                        <p class="lead">
+                                            <br/>
+                                        </p>
+                                        <p class="lead">
+                                            <br/>
+                                        </p>
+                                    </div>
+                                    <div class="o_grid_item col-lg-2 g-col-lg-2 g-height-1 o_colored_level"
+                                         style="z-index: 8; grid-area: 10 / 1 / 11 / 3;">
+                                        <a href="#" class="mb-2 btn btn-primary">see all</a>
+                                        <br/>
+                                    </div>
+                                    <div class="o_grid_item o_colored_level g-height-1 g-col-lg-2 col-lg-2"
+                                         style="z-index: 9; grid-area: 11 / 3 / 12 / 5;">
+                                        <p style="text-align: center;">
+                                            <font class="text-o-color-4">BadKamerkast</font>
+
+                                        </p>
+                                    </div>
+                                    <div class="o_grid_item o_colored_level g-height-1 g-col-lg-2 col-lg-2"
+                                         style="z-index: 10; grid-area: 11 / 5 / 12 / 7;">
+                                        <p style="text-align: center;">
+                                            <font class="text-o-color-4">BadKamerkast</font>
+
+                                        </p>
+                                    </div>
+                                    <div class="o_grid_item o_colored_level g-height-1 g-col-lg-2 col-lg-2"
+                                         style="z-index: 11; grid-area: 11 / 7 / 12 / 9;">
+                                        <p style="text-align: center;">
+                                            <font class="text-o-color-4">BadKamerkast</font>
+
+                                        </p>
+                                    </div>
+                                    <div class="o_grid_item o_colored_level g-height-1 g-col-lg-2 col-lg-2"
+                                         style="z-index: 12; grid-area: 11 / 9 / 12 / 11;">
+                                        <p style="text-align: center;">
+                                            <font class="text-o-color-4">BadKamerkast</font>
+
+                                        </p>
+                                    </div>
+                                    <div class="o_grid_item o_colored_level g-height-1 g-col-lg-2 col-lg-2"
+                                         style="z-index: 13; grid-area: 11 / 11 / 12 / 13;">
+                                        <p style="text-align: center;">
+                                            <font class="text-o-color-4">BadKamerkast</font>
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- Start of How We Work - Image Text Box Section -->
+                        <section
+                                class="s_image_text_box pt80 o_colored_level d-lg-block d-none o_snippet_mobile_invisible pb72"
+                                data-snippet="s_image_text_box" data-name="Image Text Box" data-invisible="1">
+                            <div class="container">
+                                <div class="row o_grid_mode" data-row-count="13" style="column-gap: 24px;">
+
+                                    <!-- Text Content -->
+                                    <div class="o_grid_item o_colored_level g-height-13 g-col-lg-4 col-lg-4"
+                                         style="z-index: 3; grid-area: 1 / 8 / 14 / 12;">
+                                        <h3>
+                                            <strong>HOW WE WORK</strong>
+                                        </h3>
+                                        <h5>
+                                            <strong>VISION ALIGNMENT</strong>
+                                        </h5>
+                                        <p>Defining client’s vision</p>
+                                        <h5>
+                                            <strong>DESIGN &amp; FINANCIAL PROPOSAL</strong>
+                                        </h5>
+                                        <p>2D &amp; 3D design proposal Furniture &amp; material selections financial
+                                            offers
+                                        </p>
+                                        <h5>
+                                            <strong>APPROVALS</strong>
+                                        </h5>
+                                        <p>Finalizing &amp; confirming Approve material sample</p>
+                                        <h5>
+                                            <strong>AGREEMENT DEVELOPMENT</strong>
+                                        </h5>
+                                        <p>Agreement development phase</p>
+                                        <h5>
+                                            <strong>MANUFACTURING</strong>
+                                        </h5>
+                                        <p>Manufacturing process Production</p>
+                                        <h5>
+                                            <strong>DELIVERY INSTALLATION</strong>
+                                        </h5>
+                                        <p>Deliver &amp; install</p>
+                                        <h5>
+                                            <strong>SUPPORT</strong>
+                                        </h5>
+                                        <p>Maintenance &amp; support</p>
+                                    </div>
+
+                                    <!-- Image Content -->
+                                    <div class="o_grid_item o_grid_item_image o_colored_level g-col-lg-5 g-height-13 col-lg-5"
+                                         style="--grid-item-padding-y: 0px; --grid-item-padding-x: 0px; z-index: 1; grid-area: 1 / 2 / 14 / 7;">
+                                        <img src="/btt_site/static/src/img/about_us/how_we_work.webp" alt=""
+                                             class="img img-fluid rounded order-lg-0 o_we_custom_image"
+                                             data-mimetype="image/webp" data-original-id="1323"
+                                             data-original-src="/btt_site/static/src/img/about_us/how_we_work.webp"
+                                             data-mimetype-before-conversion="image/png" data-resize-width="690"
+                                             loading="lazy"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- End of How We Work - Image Text Box Section -->
+                        <!-- Start of Vision, Mission & Goals Image Title Section -->
+
+                        <section
+                                class="s_image_title o_colored_level o_cc o_cc5 pt88 d-lg-none o_snippet_desktop_invisible pb48 oe_img_bg o_bg_img_center o_bg_img_origin_border_box"
+                                style="background-position: 50% 70%; background-image: url(/btt_site/static/src/img/494%201%20%281%29.webp) !important;"
+                                data-snippet="s_image_title" data-name="Image Title" data-invisible="1"
+                                data-mimetype="image/webp" data-original-id="1439" data-original-src=""
+                                data-mimetype-before-conversion="image/png" data-resize-width="393">
+                            <div class="o_we_bg_filter bg-black-50"/>
+                            <div class="container">
+                                <div class="row o_grid_mode" data-row-count="6">
+
+
+                                    <div class="o_grid_item col-lg-6 g-col-lg-6 g-height-6 o_grid_item_image o_colored_level o_grid_item_image_contain offset-1 offset-lg-0 col-10 o_cc o_cc1 bg-white-85"
+                                         style="grid-area: 1 / 1 / 7 / 7; z-index: 3;">
+                                        <img src="/btt_site/static/src/img/Untitled_design__1_-removebg-preview.webp"
+                                             alt="" class="img img-fluid o_we_custom_image mx-auto d-block"
+                                             data-mimetype="image/png" data-original-id="1338"
+                                             data-original-src="/btt_site/static/src/img/Untitled_design__1_-removebg-preview.png"
+                                             data-mimetype-before-conversion="image/png" loading="lazy"/>
+                                    </div>
+                                    <div class="o_grid_item col-lg-4 g-col-lg-4 g-height-2 o_colored_level col-10 offset-1 offset-lg-0 o_cc o_cc1 bg-white-85"
+                                         style="grid-area: 1 / 1 / 3 / 5; z-index: 4;">
+                                        <h6>
+                                            <strong>VISION, MISSION &amp;amp; GOALS.</strong>
+                                        </h6>
+                                        <div class="s_hr oe_snippet_body pt16 pb0" data-snippet="s_hr"
+                                             data-name="Separator">
+                                            <hr class="w-100 mx-auto"
+                                                style="border-top-color: rgb(140, 198, 63); border-top-width: 5px !important;"/>
+                                        </div>
+                                        <p>
+                                            <br/>
+                                        </p>
+                                        <p class="o_small">
+                                            <font class="text-o-color-1">
+                                                <strong>Our Vision</strong>
+                                            </font>
+                                            <span class="o_small-fs">is to be a leading force in the transformation
+                                                of Saudi Arabia’s infrastructure, driving sustainable and innovative
+                                                construction solutions that align with Vision 2030. We aim to
+                                                contribute to the Kingdom’s economic diversification, urban
+                                                development, and global competitiveness by delivering world-class
+                                                projects that enhance the quality of life for all citizens.
+                                            </span>
+                                        </p>
+                                        <p class="o_small">
+                                            <strong>
+                                                <font class="text-o-color-1">
+                                                    <span class="o_small-fs">Our mission</span>
+                                                </font>
+                                            </strong>
+                                            <span class="o_small-fs">is to provide superior construction and
+                                                furniture solutions that exceed our clients’ expectations. We
+                                                envision a future where every project we undertake reflects our
+                                                dedication to quality, sustainability, and customer satisfaction.
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- Start of Title Section -->
+
+                        <section class="s_title pt40 pb40 o_colored_level d-lg-none o_snippet_desktop_invisible"
+                                 data-vcss="001" data-snippet="s_title" data-name="Title" data-invisible="1">
+                            <div class="container s_allow_columns">
+                                <p class="lead" style="text-align: center;">
+                                    <span class="o_small-fs">houseplants, pet-friendly plants, orchids and
+                                        one-of-a-kind rare plants.
+                                    </span>
+                                    <br/>
+                                </p>
+                            </div>
+                        </section>
+                        <!-- Start of Vision, Mission & Goals Image Title Section -->
+
+                        <section
+                                class="s_image_title o_colored_level o_cc o_cc5 d-lg-none o_snippet_desktop_invisible pb0 pt192 oe_img_bg o_bg_img_center o_bg_img_origin_border_box"
+                                style="background-position: 50% 70%; position: relative; background-image: url(/btt_site/static/src/img/444775396d18c6599419472c9ef25ea8.webp) !important;"
+                                data-snippet="s_image_title" data-name="Image Title" data-invisible="1"
+                                data-mimetype="image/webp" data-original-id="1449"
+                                data-original-src="/btt_site/static/src/img/444775396d18c6599419472c9ef25ea8.jpeg"
+                                data-mimetype-before-conversion="image/jpeg" data-resize-width="500"
+                                data-quality="100">
+                            <div class="o_we_bg_filter bg-black-50"/>
+                            <div class="container">
+                                <div class="row o_grid_mode" data-row-count="2">
+
+
+                                    <div class="o_grid_item col-lg-4 g-col-lg-4 g-height-2 o_colored_level col-12 o_cc o_cc1 bg-black-50"
+                                         style="grid-area: 1 / 1 / 3 / 5; z-index: 4; --grid-item-padding-y: 0px; --grid-item-padding-x: 0px;">
+                                        <h6>
+                                            <strong>
+                                                <font class="text-o-color-3">VISION, MISSION &amp;amp; GOALS.</font>
+                                            </strong>
+                                        </h6>
+                                        <p class="o_small">
+                                            <span class="o_small-fs">
+                                                <font class="text-o-color-4">&amp;nbsp;exceed our clients’
+                                                    expectations. We envision a future where every project we
+                                                    undertake reflects our dedication to quality, sustainability,
+                                                    and customer satisfaction.
+                                                </font>
+                                            </span>
+                                        </p>
+                                        <div class="s_hr pt32 pb32" data-snippet="s_hr" data-name="Separator">
+                                            <hr class="w-100 mx-auto"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- Start of Empty Title Section -->
+
+                        <section class="s_title o_colored_level pt0 pb0 d-lg-none o_snippet_desktop_invisible"
+                                 data-vcss="001" data-snippet="s_title" data-name="Title" data-invisible="1">
+                            <div class="s_allow_columns container">
+                                <h2 class="display-3-fs" style="text-align: center;">
+                                    <br/>
+                                </h2>
+                                <div class="s_hr oe_snippet_body pb0 pt0" data-snippet="s_hr" data-name="Separator">
+                                    <hr class="mx-auto w-100" style="border-top-width: 0px;"/>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- Start of Construction Services Image Title Section -->
+
+                        <section
+                                class="s_image_title o_colored_level o_cc o_cc5 d-lg-none o_snippet_desktop_invisible pb0 pt240 oe_img_bg o_bg_img_center o_bg_img_origin_border_box"
+                                style="background-position: 50% 70%; position: relative; background-image: url(/btt_site/static/src/img/610db10b03e0ba0ae33b622f994dd4a7%20%281%29.webp) !important;"
+                                data-snippet="s_image_title" data-name="Image Title" data-invisible="1"
+                                data-mimetype="image/webp" data-original-id="1443"
+                                data-original-src="/btt_site/static/src/img/610db10b03e0ba0ae33b622f994dd4a7%20%281%29.jpg"
+                                data-mimetype-before-conversion="image/jpeg" data-resize-width="736">
+                            <div class="o_we_bg_filter bg-black-50"/>
+                            <div class="container">
+                                <div class="row o_grid_mode" data-row-count="2">
+
+
+                                    <div class="o_grid_item col-lg-4 g-col-lg-4 g-height-2 o_colored_level col-12 o_cc o_cc1 bg-black-50"
+                                         style="grid-area: 1 / 1 / 3 / 5; z-index: 4; --grid-item-padding-y: 0px; --grid-item-padding-x: 0px;">
+                                        <h6>
+                                            <font class="text-o-color-4">
+                                                <strong>CONSTRUCTION SERVICES</strong>
+                                            </font>
+
+                                        </h6>
+                                        <h6>
+                                            <strong>
+                                                <font class="text-o-color-3">​</font>
+                                            </strong>
+                                            <br/>
+                                        </h6>
+                                        <p class="o_small">
+                                            <span class="o_small-fs">
+                                                <font class="text-o-color-4">&amp;nbsp;exceed our clients’
+                                                    expectations. We envision a future where every project we
+                                                    undertake reflects our dedication to quality, sustainability,
+                                                    and customer satisfaction.
+                                                </font>
+                                            </span>
+                                        </p>
+                                        <div class="s_hr pb0 pt0" data-snippet="s_hr" data-name="Separator">
+                                            <hr class="w-100 mx-auto"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- Start of Empty Title Section -->
+
+                        <section class="s_title o_colored_level pb0 pt0 d-lg-none o_snippet_desktop_invisible"
+                                 data-vcss="001" data-snippet="s_title" data-name="Title" data-invisible="1">
+                            <div class="container s_allow_columns">
+                                <p>
+                                    <br/>
+                                </p>
+                            </div>
+                        </section>
+                        <!-- Start of Commercial Equipments Image Title Section -->
+
+                        <section
+                                class="s_image_title o_colored_level o_cc o_cc5 d-lg-none o_snippet_desktop_invisible pb0 pt256 oe_img_bg o_bg_img_center o_bg_img_origin_border_box"
+                                style="background-position: 50% 70%; position: relative; background-image: url(/btt_site/static/src/img/e4cd0549de9d4fb529cb720da1a3b8c5.webp) !important;"
+                                data-snippet="s_image_title" data-name="Image Title" data-invisible="1"
+                                data-mimetype="image/webp" data-original-id="1444"
+                                data-original-src="/btt_site/static/src/img/e4cd0549de9d4fb529cb720da1a3b8c5.jpg"
+                                data-mimetype-before-conversion="image/jpeg" data-resize-width="736">
+                            <div class="o_we_bg_filter bg-black-50"/>
+                            <div class="container">
+                                <div class="row o_grid_mode" data-row-count="2">
+
+
+                                    <div class="o_grid_item col-lg-4 g-col-lg-4 g-height-2 o_colored_level col-12 o_cc o_cc1 bg-black-50"
+                                         style="grid-area: 1 / 1 / 3 / 5; z-index: 4; --grid-item-padding-y: 0px; --grid-item-padding-x: 0px;">
+                                        <h6>
+                                            <font class="text-o-color-4">
+                                                <strong>
+                                                    Commercial EQUIPMENTS
+
+                                                </strong>
+                                            </font>
+
+                                            <br/>
+                                        </h6>
+                                        <h6>
+                                            <strong>
+                                                <font class="text-o-color-3">​</font>
+                                            </strong>
+                                            <br/>
+                                        </h6>
+                                        <p class="o_small">
+                                            <span class="o_small-fs">
+                                                <font class="text-o-color-4">&amp;nbsp;exceed our clients’
+                                                    expectations. We envision a future where every project we
+                                                    undertake reflects our dedication to quality, sustainability,
+                                                    and customer satisfaction.
+                                                </font>
+                                            </span>
+                                        </p>
+                                        <div class="s_hr pb0 pt0" data-snippet="s_hr" data-name="Separator">
+                                            <hr class="w-100 mx-auto"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- Start of Projects Title Section -->
+
+                        <section class="s_title o_colored_level pb0 d-lg-none o_snippet_desktop_invisible pt16"
+                                 data-vcss="001" data-snippet="s_title" data-name="Title" data-invisible="1">
+                            <div class="container s_allow_columns">
+                                <h4 style="text-align: center;">
+                                    <strong>O U R&amp;nbsp; &amp;nbsp;
+                                        <font class="text-600">P R O J E C T S&amp;nbsp; &amp;nbsp;&amp;nbsp;</font>
+                                    </strong>
+                                </h4>
+                            </div>
+                        </section>
+                        <!-- Start of Mobile Carousel Section -->
+
+                        <section class="s_carousel_wrapper p-0 d-lg-none o_snippet_desktop_invisible"
+                                 data-vxml="001" data-vcss="001" data-snippet="s_carousel" data-name="Carousel"
+                                 data-invisible="1">
+                            <div class="s_carousel s_carousel_default carousel slide o_colored_level bg-black-75"
+                                 data-bs-ride="true" data-bs-interval="10000" id="myCarousel1743069900032">
+
+                                <div class="carousel-inner">
+
+
+                                    <div class="carousel-item pt96 o_colored_level pb0 oe_img_bg o_bg_img_center active"
+                                         style="background-image: url(/btt_site/static/src/img/3e218b270f516fdcb4d6d60dae1a2945.webp) !important;"
+                                         data-name="Slide" data-mimetype="image/webp" data-original-id="1453"
+                                         data-original-src="/btt_site/static/src/img/3e218b270f516fdcb4d6d60dae1a2945.jpg"
+                                         data-mimetype-before-conversion="image/jpeg" data-resize-width="1024">
+                                        <div class="o_we_bg_filter bg-black-50"/>
+                                        <div class="oe_unremovable container">
+                                            <div class="row">
+                                                <div class="carousel-content col-lg-8 offset-lg-2 text-center o_colored_level col-12 pt256 pb0">
+                                                    <h1 class="display-4">
+                                                        <font class="text-o-color-4">
+                                                            <strong>Ministry of Energy</strong>
+                                                        </font>
+                                                        <strong>
+                                                            <br/>
+                                                        </strong>
+                                                    </h1>
+                                                    <div class="s_hr pt8 pb24" data-snippet="s_hr"
+                                                         data-name="Separator">
+                                                        <strong>
+                                                            <br/>
+                                                        </strong>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item pt96 o_colored_level pb0 oe_img_bg o_bg_img_center"
+                                         style="background-image: url(/btt_site/static/src/img/51f6cc3fff92844381277031d92e80ad.webp) !important;"
+                                         data-name="Slide" data-mimetype="image/webp" data-original-id="1448"
+                                         data-original-src="/btt_site/static/src/img/51f6cc3fff92844381277031d92e80ad.jpg"
+                                         data-mimetype-before-conversion="image/jpeg" data-resize-width="1024">
+                                        <div class="o_we_bg_filter bg-black-50"/>
+                                        <div class="container oe_unremovable">
+                                            <div class="row">
+                                                <div class="carousel-content col-lg-8 offset-lg-2 text-center o_colored_level col-12 pt256 pb0">
+                                                    <h1 class="display-4">
+                                                        <font class="text-o-color-4">
+                                                            <strong>Ministry of Energy</strong>
+                                                        </font>
+                                                        <strong>
+                                                            <br/>
+                                                        </strong>
+                                                    </h1>
+                                                    <div class="s_hr pt8 pb24 o_draggable" data-snippet="s_hr"
+                                                         data-name="Separator">
+                                                        <br/>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <button class="carousel-control-prev o_not_editable o_we_no_overlay"
+                                        aria-label="Previous" title="Previous"
+                                        data-bs-target="#myCarousel1743069900032" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"/>
+                                    <span class="visually-hidden o_default_snippet_text">Previous</span>
+                                </button>
+                                <button class="carousel-control-next o_not_editable o_we_no_overlay"
+                                        aria-label="Next" title="Next" data-bs-target="#myCarousel1743069900032"
+                                        data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"/>
+                                    <span class="visually-hidden o_default_snippet_text">Next</span>
+                                </button>
+
+                                <div class="carousel-indicators o_not_editable o_we_no_overlay">
+
+                                    <button type="button" aria-label="Carousel indicator"
+                                            data-bs-target="#myCarousel1743069900032" class="active"
+                                            data-bs-slide-to="0" aria-current="true"/>
+
+                                    <button data-bs-target="#myCarousel1743069900032"
+                                            aria-label="Carousel indicator" data-bs-slide-to="1"/>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="s_title o_colored_level pb0 pt16 d-lg-none o_snippet_desktop_invisible"
+                                 data-vcss="001" data-snippet="s_title" data-name="Title" data-invisible="1">
+                            <div class="container s_allow_columns">
+                                <h4 style="text-align: center;">
+                                    <strong>O U R&amp;nbsp;
+                                        <font class="text-600">&amp;nbsp;F A C T O R I E S&amp;nbsp; &amp;nbsp;
+                                        </font>
+                                    </strong>
+                                </h4>
+                            </div>
+                        </section>
+                        <!-- Start of Mobile Carousel Section -->
+                        <section class="s_carousel_wrapper p-0 d-lg-none o_snippet_desktop_invisible"
+                                 data-vxml="001" data-vcss="001" data-snippet="s_carousel" data-name="Carousel"
+                                 data-invisible="1">
+                            <div class="s_carousel s_carousel_default carousel slide o_colored_level bg-black-75"
+                                 data-bs-ride="true" data-bs-interval="10000" id="myCarousel1743073495042">
+
+                                <!-- Carousel Inner -->
+                                <div class="carousel-inner">
+
+                                    <!-- Slide 1: Office Setting Factory -->
+                                    <div class="carousel-item o_colored_level pb0 pt32 oe_img_bg o_bg_img_center active"
+                                         style="background-image: url(/btt_site/static/src/img/93dd0e576a3b89436a8a3fec0b1c4925%20%281%29.webp) !important;"
+                                         data-name="Slide" data-mimetype="image/webp" data-original-id="1456"
+                                         data-original-src="/btt_site/static/src/img/93dd0e576a3b89436a8a3fec0b1c4925%20%281%29.png"
+                                         data-mimetype-before-conversion="image/png" data-resize-width="1920">
+                                        <div class="o_we_bg_filter bg-black-50"></div>
+                                        <div class="oe_unremovable container">
+                                            <div class="row">
+                                                <div class="carousel-content col-lg-8 offset-lg-2 text-center o_colored_level col-12 pb0 pt232 rounded"
+                                                     style="border-radius: 5px !important;">
+                                                    <h4>
+                                                        <strong>Office Setting Factory</strong>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slide 2: Ministry of Energy -->
+                                    <div class="carousel-item pt96 o_colored_level pb0 oe_img_bg o_bg_img_center"
+                                         style="background-image: url(/btt_site/static/src/img/1781dceae47c011bfca82a6f9341b2ad%20%281%29.webp) !important;"
+                                         data-name="Slide" data-mimetype="image/webp" data-original-id="1455"
+                                         data-original-src="/btt_site/static/src/img/1781dceae47c011bfca82a6f9341b2ad%20%281%29.png"
+                                         data-mimetype-before-conversion="image/png" data-resize-width="1920">
+                                        <div class="o_we_bg_filter bg-black-50"></div>
+                                        <div class="oe_unremovable container">
+                                            <div class="row">
+                                                <div class="carousel-content col-lg-8 offset-lg-2 text-center o_colored_level col-12 pb0 pt216">
+                                                    <h4>
+                                                        <font class="text-o-color-4">
+                                                            <strong>Ministry of Energy</strong>
+                                                        </font>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slide 3: Wooden Furniture Factory -->
+                                    <div class="carousel-item pt96 o_colored_level pb0 oe_img_bg o_bg_img_center"
+                                         style="background-image: url(/btt_site/static/src/img/724f72626c103c38c82729b27644d041%20%281%29.webp);"
+                                         data-name="Slide" data-mimetype="image/webp" data-original-id="1454"
+                                         data-original-src="/btt_site/static/src/img/724f72626c103c38c82729b27644d041%20%281%29.png"
+                                         data-mimetype-before-conversion="image/png" data-resize-width="1920">
+                                        <div class="o_we_bg_filter bg-black-50"></div>
+                                        <div class="container oe_unremovable">
+                                            <div class="row">
+                                                <div class="carousel-content col-lg-8 offset-lg-2 text-center o_colored_level col-12 pb0 pt216">
+                                                    <h5>
+                                                        <font class="text-o-color-4">
+                                                            <strong>Wooden Furniture Factory</strong>
+                                                        </font>
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <!-- Carousel Controls -->
+                                <button class="carousel-control-prev o_not_editable o_we_no_overlay"
+                                        aria-label="Previous" title="Previous"
+                                        data-bs-target="#myCarousel1743073495042" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden o_default_snippet_text">Previous</span>
+                                </button>
+                                <button class="carousel-control-next o_not_editable o_we_no_overlay"
+                                        aria-label="Next" title="Next" data-bs-target="#myCarousel1743073495042"
+                                        data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden o_default_snippet_text">Next</span>
+                                </button>
+
+                                <!-- Carousel Indicators -->
+                                <div class="carousel-indicators o_not_editable o_we_no_overlay">
+                                    <button type="button" aria-label="Carousel indicator"
+                                            data-bs-target="#myCarousel1743073495042" class="active"
+                                            data-bs-slide-to="0" aria-current="true"></button>
+                                    <button data-bs-target="#myCarousel1743073495042"
+                                            aria-label="Carousel indicator" data-bs-slide-to="1"></button>
+                                    <button data-bs-target="#myCarousel1743073495042"
+                                            aria-label="Carousel indicator" data-bs-slide-to="2"></button>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- End of Mobile Carousel Section -->
+                        <section class="s_title o_colored_level pb0 pt16 d-lg-none o_snippet_desktop_invisible"
+                                 data-vcss="001" data-snippet="s_title" data-name="Title" data-invisible="1">
+                            <div class="container s_allow_columns">
+                                <h1 style="text-align: center;">
+                                    <strong>O U R&amp;nbsp;
+                                        <font class="text-600">T E A M</font>
+                                    </strong>
+                                </h1>
+                            </div>
+                        </section>
+                        <!-- Start of Mobile Carousel Section -->
+                        <section class="s_carousel_wrapper p-0 d-lg-none o_snippet_desktop_invisible"
+                                 data-vxml="001" data-vcss="001" data-snippet="s_carousel" data-name="Carousel"
+                                 data-invisible="1">
+                            <div class="s_carousel s_carousel_default carousel slide o_colored_level bg-black-75"
+                                 data-bs-ride="true" data-bs-interval="10000" id="myCarousel1743074699605">
+
+                                <!-- Carousel Inner -->
+                                <div class="carousel-inner">
+
+                                    <!-- Slide 1 -->
+                                    <div class="carousel-item o_colored_level pt216 pb72 oe_img_bg o_bg_img_center active"
+                                         style="background-image: url(https://btt18-test.odoo.com/web/image/1465-5c36c9e1/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair%202.webp);"
+                                         data-name="Slide" data-mimetype="image/webp" data-original-id="1461"
+                                         data-original-src="/btt_site/static/src/img/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair%202.png"
+                                         data-mimetype-before-conversion="image/png" data-resize-width="345">
+                                        <div class="o_we_bg_filter bg-black-15"></div>
+                                        <div class="oe_unremovable container">
+                                            <div class="row">
+                                                <div class="carousel-content col-lg-8 offset-lg-2 text-center o_colored_level col-12 o_cc o_cc2 pb0 pt0 rounded"
+                                                     style="border-radius: 15px !important;">
+                                                    <h3 style="text-align: left;">
+                                                        <strong>Alexis Jensen</strong>
+                                                    </h3>
+                                                    <p class="o_small" style="text-align: left;">
+                                                        <font style="color: rgb(0, 0, 255);">CTO</font>
+                                                    </p>
+                                                    <p class="o_small" style="text-align: left;">Bookworm, creative
+                                                        software developer with precision
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slide 2 -->
+                                    <div class="carousel-item o_colored_level pt216 pb0 oe_img_bg o_bg_img_center"
+                                         style="background-image: url(/btt_site/static/src/img/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair%202.webp) !important;"
+                                         data-name="Slide" data-mimetype="image/webp" data-original-id="1461"
+                                         data-original-src="/btt_site/static/src/img/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair%202.png"
+                                         data-mimetype-before-conversion="image/png" data-resize-width="345">
+                                        <div class="o_we_bg_filter bg-black-15"></div>
+                                        <div class="oe_unremovable container">
+                                            <div class="row">
+                                                <div class="carousel-content col-lg-8 offset-lg-2 text-center o_colored_level col-12 o_cc o_cc2 pt0 pb0 rounded"
+                                                     style="border-radius: 15px !important;">
+                                                    <h3 style="text-align: left;">
+                                                        <strong>Alexis Jensen</strong>
+                                                    </h3>
+                                                    <p class="o_small" style="text-align: left;">
+                                                        <font style="color: rgb(0, 0, 255);">CTO</font>
+                                                    </p>
+                                                    <p class="o_small" style="text-align: left;">Bookworm, creative
+                                                        software developer with precision
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slide 3 -->
+                                    <div class="carousel-item o_colored_level pt216 pb0 oe_img_bg o_bg_img_center"
+                                         style="background-image: url(/btt_site/static/src/img/handsome-young-man-with-new-stylish-haircut%202.webp) !important;"
+                                         data-name="Slide" data-mimetype="image/webp" data-original-id="1462"
+                                         data-original-src="/btt_site/static/src/img/handsome-young-man-with-new-stylish-haircut%202.png"
+                                         data-mimetype-before-conversion="image/png" data-resize-width="302">
+                                        <div class="o_we_bg_filter bg-black-15"></div>
+                                        <div class="oe_unremovable container">
+                                            <div class="row">
+                                                <div class="carousel-content col-lg-8 offset-lg-2 text-center o_colored_level col-12 o_cc o_cc2 pt0 pb32 rounded"
+                                                     style="border-radius: 15px !important;">
+                                                    <h3 style="text-align: left;">
+                                                        <strong>Dominic Game</strong>
+                                                    </h3>
+                                                    <p class="o_small" style="text-align: left;">
+                                                        <font style="color: rgb(0, 0, 255);">3D Artist</font>
+                                                    </p>
+                                                    <p class="o_small" style="text-align: left;">Football enthusiast,
+                                                        enjoys movie nights with friends
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <!-- Carousel Controls -->
+                                <button class="carousel-control-prev o_not_editable o_we_no_overlay"
+                                        aria-label="Previous" title="Previous"
+                                        data-bs-target="#myCarousel1743074699605" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden o_default_snippet_text">Previous</span>
+                                </button>
+                                <button class="carousel-control-next o_not_editable o_we_no_overlay"
+                                        aria-label="Next" title="Next" data-bs-target="#myCarousel1743074699605"
+                                        data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden o_default_snippet_text">Next</span>
+                                </button>
+
+                                <!-- Carousel Indicators -->
+                                <div class="carousel-indicators o_not_editable o_we_no_overlay">
+                                    <button data-bs-target="#myCarousel1743074699605" aria-label="Carousel indicator"
+                                            class="active" data-bs-slide-to="0" aria-current="true"></button>
+                                    <button data-bs-target="#myCarousel1743074699605" aria-label="Carousel indicator"
+                                            data-bs-slide-to="1"></button>
+                                    <button data-bs-target="#myCarousel1743074699605" aria-label="Carousel indicator"
+                                            data-bs-slide-to="2"></button>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- End of Mobile Carousel Section -->
+                        <!-- Start of FAQ Block Section -->
+                        <section class="s_faq_collapse pt32 o_colored_level pb0" data-vcss="001"
+                                 data-snippet="s_faq_collapse" data-name="FAQ Block">
+                            <div class="container">
+                                <div class="row s_nb_column_fixed align-items-start">
+                                    <div class="col-lg-4 o_colored_level pt0 d-lg-none o_snippet_desktop_invisible"
+                                         data-invisible="1">
+                                        <h2>
+                                            <strong>HOW WE WORK</strong>
+                                        </h2>
+                                        <h6>
+                                            <strong>VISION ALIGNMENT</strong>
+                                        </h6>
+                                        <h6>
+                                            <strong>DESIGN &amp;amp; FINANCIAL PROPOSAL&amp;nbsp;</strong>
+                                        </h6>
+                                        <p class="o_small">
+                                            2D &amp;amp; 3D design proposal Furniture &amp;amp; material selections
+                                            Financial offers&amp;nbsp;
+                                        </p>
+                                        <h6>
+                                            <strong>APPROVALS&amp;nbsp;</strong>
+                                        </h6>
+                                        <p class="o_small">
+                                            Finalizing &amp;amp; confirming Approve material sample&amp;nbsp;
+                                        </p>
+                                        <h6>
+                                            <strong>AGREEMENT DEVELOPMENT</strong>&amp;nbsp;
+                                        </h6>
+                                        <p class="o_small">
+                                            Agreement development phase&amp;nbsp;
+                                        </p>
+                                        <h6>
+                                            <strong>MANUFACTURING</strong>&amp;nbsp;
+                                        </h6>
+                                        <p class="o_small">
+                                            Manufacturing process&amp;nbsp; Production
+                                        </p>
+                                        <h6>
+                                            <strong>DELIVERY INSTALLATION&amp;nbsp;</strong>
+                                        </h6>
+                                        <p class="o_small">
+                                            Deliver &amp;amp; install&amp;nbsp;
+                                        </p>
+                                        <h6>
+                                            <strong>SUPPORT&amp;nbsp;</strong>
+                                        </h6>
+                                        <p class="o_small">
+                                            Maintenance &amp;amp; support
+                                            &amp;nbsp;
+                                            <br/>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- End of FAQ Block Section -->
+                        <!-- Start of Image Text Box Section -->
+                        <section class="s_image_text_box pb80 o_colored_level pt0" data-snippet="s_image_text_box"
+                                 data-name="Image Text Box">
+                            <div class="container">
+                                <div class="row o_grid_mode" data-row-count="10" style="column-gap: 24px;">
+                                    <div class="o_grid_item o_grid_item_image g-col-lg-6 g-height-10 col-lg-6 o_colored_level d-lg-none o_snippet_desktop_invisible"
+                                         style="grid-area: 1 / 1 / 11 / 7; z-index: 1; --grid-item-padding-y: 0px; --grid-item-padding-x: 0px; order: 1;"
+                                         data-invisible="1">
+
+                                        <!-- Image: How We Work -->
+                                        <img src="/btt_site/static/src/img/about_us/how_we_work.webp"
+                                             alt="How We Work"
+                                             class="img img-fluid rounded order-lg-0 o_we_custom_image"
+                                             loading="lazy"/>
+                                        <!-- End of Image -->
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- End of Image Text Box Section -->
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+</odoo>
